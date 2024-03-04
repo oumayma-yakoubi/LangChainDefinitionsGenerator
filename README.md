@@ -1,1 +1,1 @@
-"LangChain Definitions Generator" 
+LangChain Definitions Generator
