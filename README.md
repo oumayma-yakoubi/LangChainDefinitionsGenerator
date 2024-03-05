@@ -16,7 +16,7 @@ On Mac, the models will be download to ~/.ollama/models
 
 On Linux (or WSL), the models will be stored at /usr/share/ollama/.ollama/models
 
-Specify the exact version of the model of interest as such ollama pull vicuna:13b-v1.5-16k-q4_0 (View the various tags for the Vicuna model in this instance)
-To view all pulled models, use ollama list
-To chat directly with a model from the command line, use ollama run <name-of-model>
-View the Ollama documentation for more commands. Run ollama help in the terminal to see available commands too.
+- Specify the exact version of the model of interest as such ollama pull vicuna:13b-v1.5-16k-q4_0
+- To view all pulled models, use ollama list
+- To chat directly with a model from the command line, use ollama run <name-of-model>
+- View the Ollama documentation for more commands. Run ollama help in the terminal to see available commands too.
