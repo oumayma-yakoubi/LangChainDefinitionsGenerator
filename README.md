@@ -24,6 +24,9 @@ On Linux (or WSL), the models will be stored at /usr/share/ollama/.ollama/models
 - To chat directly with a model from the command line, use ollama run <name-of-model>
 - View the Ollama documentation for more commands. Run ollama help in the terminal to see available commands too.
 
+
+To see the full documentation, including details on the tools used and their usage, please refer to [LangChain Documentation](https://python.langchain.com/docs/).
+
 ## Llama 2
 Llama 2 is released by Meta Platforms, Inc. This model is trained on 2 trillion tokens, and by default supports a context length of 4096. Llama 2 Chat models are fine-tuned on over 1 million human annotations, and are made for chat.
 
