@@ -34,6 +34,13 @@ Besides having a large collection of different types of output parsers, one dist
 
 - **String output parser**: The StringOutputParser takes language model output (either an entire response or as a stream) and converts it into a string. This is useful for standardizing chat model and LLM output.
 
+## LCEL 
+LCEL makes it easy to build complex chains from basic components, and supports out of the box functionality such as streaming, parallelism, and logging.
+Basic example: **prompt + model + output parser**
 
+## Chain 
+Chains refer to sequences of calls - whether to an LLM, a tool, or a data preprocessing step. The primary supported way to do this is with LCEL.
+- **Chains that are built with LCEL.** In this case, LangChain offers a higher-level constructor method. However, all that is being done under the hood is constructing a chain with LCEL.
+- **[Legacy] Chains** constructed by subclassing from a legacy Chain class. These chains do not use LCEL under the hood but are rather standalone classes.  
 
 
