@@ -10,7 +10,7 @@ A prompt for a language model is a set of instructions or input provided by a us
 Ollama allows you to run open-source large language models, such as Llama 2, locally. It bundles model weights, configuration, and data into a single package, defined by a Modelfile. It optimizes setup and configuration details, including GPU usage.
 
 ## Setup
-- Download and install Ollama onto the available supported platforms (https://ollama.com/download)
+- [Download](https://ollama.com/download) and install Ollama onto the available supported platforms 
 - Fetch available LLM model via ollama pull <name-of-model>
     * View a list of available models via the model library
     * e.g., for Llama-7b: ollama pull llama2
