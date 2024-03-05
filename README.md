@@ -43,4 +43,17 @@ Chains refer to sequences of calls - whether to an LLM, a tool, or a data prepro
 - **Chains that are built with LCEL.** In this case, LangChain offers a higher-level constructor method. However, all that is being done under the hood is constructing a chain with LCEL.
 - **[Legacy] Chains** constructed by subclassing from a legacy Chain class. These chains do not use LCEL under the hood but are rather standalone classes.  
 
+## Interface 
+To make it as easy as possible to create custom chains, we’ve implemented a “Runnable” protocol. The Runnable protocol is implemented for most components. This is a standard interface, which makes it easy to define custom chains as well as invoke them in a standard way. The standard interface includes:
 
+* stream: stream back chunks of the response
+* invoke: call the chain on an input
+*batch: call the chain on a list of inputs
+
+These also have corresponding async methods:
+
+* astream: stream back chunks of the response async
+* ainvoke: call the chain on an input async
+* abatch: call the chain on a list of inputs async
+* astream_log: stream back intermediate steps as they happen, in addition to the final response
+* astream_events: beta stream events as they happen in the chain (introduced in langchain-core 0.1.14)
