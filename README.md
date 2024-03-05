@@ -3,6 +3,9 @@
 ## LangChain
 Langchain is an open-source framework that enables developers working with artificial intelligence to combine large language models like GPT-4 with external data sources.
 
+## Prompt 
+A prompt for a language model is a set of instructions or input provided by a user to guide the model's response, helping it understand the context and generate relevant and coherent language-based output, such as answering questions, completing sentences, or engaging in a conversation.
+
 ## Ollama
 Ollama allows you to run open-source large language models, such as Llama 2, locally. It bundles model weights, configuration, and data into a single package, defined by a Modelfile. It optimizes setup and configuration details, including GPU usage.
 
