@@ -27,4 +27,13 @@ On Linux (or WSL), the models will be stored at /usr/share/ollama/.ollama/models
 ## Llama 2
 Llama 2 is released by Meta Platforms, Inc. This model is trained on 2 trillion tokens, and by default supports a context length of 4096. Llama 2 Chat models are fine-tuned on over 1 million human annotations, and are made for chat.
 
+## Output parsers
+Output parsers are responsible for taking the output of an LLM and transforming it to a more suitable format. This is very useful when you are using LLMs to generate any form of structured data.
+
+Besides having a large collection of different types of output parsers, one distinguishing benefit of LangChain OutputParsers is that many of them support streaming.
+
+- **String output parser**: The StringOutputParser takes language model output (either an entire response or as a stream) and converts it into a string. This is useful for standardizing chat model and LLM output.
+
+
+
 
