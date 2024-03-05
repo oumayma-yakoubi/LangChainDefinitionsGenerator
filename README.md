@@ -46,17 +46,17 @@ Chains refer to sequences of calls - whether to an LLM, a tool, or a data prepro
 ## Interface 
 To make it as easy as possible to create custom chains, we’ve implemented a “Runnable” protocol. The Runnable protocol is implemented for most components. This is a standard interface, which makes it easy to define custom chains as well as invoke them in a standard way. The standard interface includes:
 
-* stream: stream back chunks of the response
-* invoke: call the chain on an input
-* batch: call the chain on a list of inputs
+* **stream:** stream back chunks of the response
+* **invoke:** call the chain on an input
+* **batch:** call the chain on a list of inputs
 
 These also have corresponding async methods:
 
-* astream: stream back chunks of the response async
-* ainvoke: call the chain on an input async
-* abatch: call the chain on a list of inputs async
-* astream_log: stream back intermediate steps as they happen, in addition to the final response
-* astream_events: beta stream events as they happen in the chain (introduced in langchain-core 0.1.14)
+* **astream:** stream back chunks of the response async
+* **ainvoke:** call the chain on an input async
+* **abatch:** call the chain on a list of inputs async
+* **astream_log:** stream back intermediate steps as they happen, in addition to the final response
+* **astream_events:** beta stream events as they happen in the chain (introduced in langchain-core 0.1.14)
 
 To see the full documentation, including details on the tools used and their usage, please refer to [LangChain Documentation](https://python.langchain.com/docs/).
 
