@@ -48,7 +48,7 @@ To make it as easy as possible to create custom chains, weâ€™ve implemented a â€
 
 * stream: stream back chunks of the response
 * invoke: call the chain on an input
-*batch: call the chain on a list of inputs
+* batch: call the chain on a list of inputs
 
 These also have corresponding async methods:
 
