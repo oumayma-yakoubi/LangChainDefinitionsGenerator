@@ -1,7 +1,0 @@
-streamlit 
-langchain
-python-dotenv
-langchain.sql_database
-langchain-community 
-langchain-openai
-mysql-connector-python
