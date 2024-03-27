@@ -1,5 +1,3 @@
-LangChain Definitions Generator
-
 # LangChain Definitions Generator
 
 ## LangChain
