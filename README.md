@@ -1,4 +1,5 @@
 # LangChain Definitions Generator
+Generate definitions based on the user query using Langchain and Llama2
 
 ## LangChain
 Langchain is an open-source framework that enables developers working with artificial intelligence to combine large language models like GPT-4 with external data sources.
